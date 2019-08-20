@@ -4526,7 +4526,8 @@ dl.accordion.time-line:before {
 
 @media (max-width: 991.98px) {
   .videoPrincipal {
-    display: none;
+    display: inline-grid;
+    margin-left: 20em;
   }
 }
 
