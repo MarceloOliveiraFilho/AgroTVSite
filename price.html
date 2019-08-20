@@ -17,7 +17,7 @@
 		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 		<title>Planos</title>
 
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 			<!--
 			CSS
 			============================================= -->
@@ -25,35 +25,40 @@
 			<link rel="stylesheet" href="css/font-awesome.min.css">
 			<link rel="stylesheet" href="css/bootstrap.css">
 			<link rel="stylesheet" href="css/magnific-popup.css">
-			<link rel="stylesheet" href="css/jquery-ui.css">				
-			<link rel="stylesheet" href="css/nice-select.css">							
+			<link rel="stylesheet" href="css/jquery-ui.css">
+			<link rel="stylesheet" href="css/nice-select.css">
 			<link rel="stylesheet" href="css/animate.min.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">				
+			<link rel="stylesheet" href="css/owl.carousel.css">
 			<link rel="stylesheet" href="css/main.css">
+			<link rel="stylesheet" href="style5.css"
 		</head>
-		<body>	
-		  <header id="header">
+		<body>
+			<button onclick="topFunction()" id="myBtn" title="Go to top">TOPO</button>
+			<header id="header">
 				<div class="container main-menu">
 					<div class="row align-items-center justify-content-between d-flex" style="display: -webkit-inline-box !important;">
 						<div id="logo" style="margin-bottom: 1em;">
 							<a href="index.html"><img style="height: 5em;" src="img/logo.png" alt="" title="" /></a>
 						</div>
+
 						<nav id="nav-menu-container" style="margin-top: 2em;margin-left: 0.5em;">
 							<ul class="nav-menu">
-
+								<li><a href="classificados.html"><button style="background-color: #017f01;    height: 2em;  width: 9em;" type="button" class="btn btn-success">CLASSIFICADOS</button></a></li>
 								<li><a href="index.html">Home</a></li>
 								<li><a href="about.html">Sobre nós</a></li>
 								<li><a href="#">Como funciona</a></li>
 								<li><a href="price.html">Planos</a></li>
 								<li><a href="">Cadastre-se</a>
 									<ul>
-										<li><a href="#">comprar</a></li>
-										<li><a href="#">vender</a></li>
+										<li><a style="background: transparent;" href="#">comprar</a></li>
+										<li><a style="background: transparent;" href="#">vender</a></li>
 									</ul>
-								</li>	
+								</li>
 								<li><a href="#">Login</a></li>
-								<li><a href="#">Acrescentar slides</a></li>
-								<li><a href="#">Classificado</a></li>
+								<li><a href="contact.html">Contato</a></li>
+								<div class="restoMenu">
+									<li><a href="#">Acrescentar slides</a></li>
+								<li><a href="produtora.html">Produtora</a></li>
 								<li><a href="#">Mercado futuro comodites</a></li>
 								<li><a href="#">Programação TV</a></li>
 								<li><a href="#">Eventos</a>
@@ -63,23 +68,75 @@
 										<li><a href="#">feiras</a></li>
 										<li><a href="#">debates</a></li>
 									</ul>
-								</li>	
+								</li>
 								<li><a href="#">Notícias</a>
 									<ul>
 										<li><a href="#">Entrevistas</a></li>
 										<li><a href="#">Matérias do Agro</a></li>
 									</ul>
-								</li>	
+								</li>
 								<li><a href="#">Cotações</a></li>
 								<li><a href="#">Parceiros</a></li>
 								<li><a href="#">Previsão do tempo</a></li>
-										          					          		          
-								<li><a href="contact.html">Contato</a></li>
+								</div>
+
 							</ul>
-						</nav><!-- #nav-menu-container -->		    		
+						</nav><!-- #nav-menu-container -->
+						<form class="form-inline">
+		<input style="    margin-left: 1em; width: 8em;" class="form-control" type="text" placeholder="Pesquisar" aria-label="Pesquisar">
+	</form>
+							</div>
+							<div class="info"></div>
+
 					</div>
 				</div>
 			</header><!-- #header -->
+
+
+			<!-- start banner Area -->
+			<nav id="sidebar" style="position: absolute;	margin-top: 7.1em;    padding-left: 1em;">
+			<ul class="list-unstyled components">
+			<li class="active">
+
+										 <li><a href="#">Acrescentar slides</a></li>
+										 <li><a href="produtora.html">Produtora</a></li>
+										 <li><a href="#">Mercado futuro comodites</a></li>
+										 <li><a href="#">Programação TV</a>
+				 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Eventos</a>
+				 <ul class="collapse list-unstyled" id="homeSubmenu">
+						 <li><a href="#">Leiloes</a></li>
+														 <li><a href="#">Workshop</a></li>
+														 <li><a href="#">feiras</a></li>
+														 <li><a href="#">debates</a></li>
+				 </ul>
+			</li>
+			<li>
+				 <a href="#">Cotações</a>
+				 <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Notícias</a>
+				 <ul class="collapse list-unstyled" id="pageSubmenu">
+						 <li><a href="#">Entrevistas</a></li>
+														 <li><a href="#">Matérias do Agro</a></li>
+				 </ul>
+			</li>
+			<li><a href="#">Parceiros</a></li>
+										 <li><a href="#">Previsão do tempo</a></li>
+			</ul>
+			</nav>
+			<section class="relative about-banner">
+
+				<div class="overlay overlay-bg"></div>
+				<div>
+
+					<div class="row d-flex align-items-center justify-content-center">
+
+						<div class="about-content col-lg-12" style="    margin-top: 1.4em;margin-right: 2em;">
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->
+
 			<!-- Start price Area -->
 			<section class="price-area section-gap">
 				<div class="container">
@@ -90,7 +147,7 @@
 								<p>Saia na frete da concorrência e contrate nossos planos.</p>
 							</div>
 						</div>
-					</div>					
+					</div>
 					<div class="row">
 						<div class="col-lg-4 col-md-6 single-price">
 							<div class="top-part">
@@ -146,13 +203,106 @@
 								<a class="price-btn text-uppercase" href="#">Comprar</a>
 							</div>
 						</div>
-																						
-					</div>
-				</div>	
-			</section>
-			<!-- End price Area -->		
 
-			
+					</div>
+				</div>
+			</section>
+			<!-- End price Area -->
+			<!-- Start fact Area -->
+			<section class="facts-area section-gap" id="facts-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 single-fact">
+							<h1 class="counter">2536</h1>
+							<p>Compras este Mês</p>
+						</div>
+						<div class="col-lg-3 col-md-6 single-fact">
+							<h1 class="counter">6784</h1>
+							<p>Anúncios de venda este mês</p>
+						</div>
+						<div class="col-lg-3 col-md-6 single-fact">
+							<h1 class="counter">2239</h1>
+							<p>Clientes satisfeitos</p>
+						</div>
+						<div class="col-lg-3 col-md-6 single-fact">
+							<h1 class="counter">435</h1>
+							<p>Empresas parceiras</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end fact Area -->
+			<!-- Start services Area -->
+			<section class="services-area section-gap">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content  col-lg-7">
+							<div class="title text-center">
+								<h1 class="mb-10">Nossos serviços</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-6">
+							<div class="single-services">
+								<span class="lnr lnr-pie-chart"></span>
+								<a href="#"><h4>Criação de iamgens aéreas</h4></a>
+								<p>
+									Piloto de drone licenciado filmando tudo necessário para impulsionar sua venda.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-services">
+								<span class="lnr lnr-laptop-phone"></span>
+								<a href="#"><h4>Melhor visualização via telefone</h4></a>
+								<p>
+									Site totalmente responsivo.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-services">
+								<span class="lnr lnr-camera"></span>
+								<a href="#"><h4>Fotos profissionais</h4></a>
+								<p>
+									Fotografos profissionais.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-services">
+								<span class="lnr lnr-picture"></span>
+								<a href="#"><h4>Edição de iamgens</h4></a>
+								<p>
+									Tratamento da imagem para melhorar iluminação entre outros fatores.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-services">
+								<span class="lnr lnr-tablet"></span>
+								<a href="#"><h4>Aplicativo com preferência</h4></a>
+								<p>
+									Seja o primeiro a ser visto no site pelo aplicativo.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-services">
+								<span class="lnr lnr-rocket"></span>
+								<a href="#"><h4>Impulsionamento da venda</h4></a>
+								<p>
+									Tenha sua venda em destaque em nossa página.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End services Area -->
+
+
             <!-- start footer Area -->
             <footer class="footer-area section-gap">
 				<div class="container">
@@ -178,11 +328,11 @@
 												<div class="input-group-btn">
 													<button class="btn btn-default" type="submit">
 														<span class="lnr lnr-arrow-right"></span>
-													</button>    
+													</button>
 												</div>
-												<div class="info"></div>  
+												<div class="info"></div>
 											</div>
-										</form> 
+										</form>
 									</div>
 								</div>
 							</div>
@@ -199,25 +349,25 @@
 						</div>
 					</div>
 				</footer>
-            <!-- End footer Area -->		
+            <!-- End footer Area -->
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="js/popper.min.js"></script>
-			<script src="js/vendor/bootstrap.min.js"></script>			
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>			
-  			<script src="js/easing.min.js"></script>			
+			<script src="js/vendor/bootstrap.min.js"></script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+  			<script src="js/easing.min.js"></script>
 			<script src="js/hoverIntent.js"></script>
-			<script src="js/superfish.min.js"></script>	
+			<script src="js/superfish.min.js"></script>
 			<script src="js/jquery.ajaxchimp.min.js"></script>
-			<script src="js/jquery.magnific-popup.min.js"></script>	
-    		<script src="js/jquery.tabs.min.js"></script>						
-			<script src="js/jquery.nice-select.min.js"></script>	
-            <script src="js/isotope.pkgd.min.js"></script>			
+			<script src="js/jquery.magnific-popup.min.js"></script>
+    		<script src="js/jquery.tabs.min.js"></script>
+			<script src="js/jquery.nice-select.min.js"></script>
+            <script src="js/isotope.pkgd.min.js"></script>
 			<script src="js/waypoints.min.js"></script>
 			<script src="js/jquery.counterup.min.js"></script>
-			<script src="js/simple-skillbar.js"></script>							
-			<script src="js/owl.carousel.min.js"></script>							
-			<script src="js/mail-script.js"></script>	
-			<script src="js/main.js"></script>	
+			<script src="js/simple-skillbar.js"></script>
+			<script src="js/owl.carousel.min.js"></script>
+			<script src="js/mail-script.js"></script>
+			<script src="js/main.js"></script>
 		</body>
 	</html>
