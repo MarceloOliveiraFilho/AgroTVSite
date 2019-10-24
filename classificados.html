@@ -22,6 +22,27 @@
 			<!--
 			CSS
 			============================================= -->
+		<!-- Icons font CSS-->
+		<link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+		<link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+		<!-- Font special for pages-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+		<!-- Vendor CSS-->
+		<link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+		<link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+		<link rel="stylesheet" href="css/linearicons.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" href="css/jquery-ui.css">
+		<link rel="stylesheet" href="css/nice-select.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/main2.css">
+		<link rel="stylesheet" href="style5.css">
+		<link rel="stylesheet" href="css/style.css"/>
 			<link rel="stylesheet" href="css/linearicons.css">
 			<link rel="stylesheet" href="css/font-awesome.min.css">
 			<link rel="stylesheet" href="css/bootstrap.css">
@@ -32,214 +53,282 @@
 			<link rel="stylesheet" href="css/owl.carousel.css">
 			<link rel="stylesheet" href="css/main.css">
 			<link rel="stylesheet" href="style5.css">
-		</head>
-		<body>
-			<button onclick="topFunction()" id="myBtn" title="Go to top">TOPO</button>
-			<header id="header">
-				<div class="container main-menu">
-					<div class="row align-items-center justify-content-between d-flex" style="display: -webkit-inline-box !important;">
-						<div id="logo" style="margin-bottom: 1em;">
-							<a href="index.html"><img style="height: 5em;" src="img/logo.png" alt="" title="" /></a>
+	</head>
+	<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">TOPO</button>
+	<header id="header">
+		<div class="container main-menu">
+			<div class="row align-items-center justify-content-between d-flex"
+				 style="display: -webkit-inline-box !important;">
+				<div id="logo" style="margin-bottom: 1em;">
+					<a href="index.html"><img style="height: 5em;" src="img/logo.png" alt="" title=""/></a>
+				</div>
+
+				<nav id="nav-menu-container" style="margin-top: 2em;margin-left: 0.5em;">
+					<ul class="nav-menu">
+						<li style="font-weight: bold;text-transform: uppercase;">
+							A Revolução do </br>Agronegócio
+						</li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">Sobre nós</a></li>
+						<li><a href="#">Como funciona</a></li>
+						<li><a href="price.html">Planos</a></li>
+						<li><a href="">Cadastre-se</a>
+							<ul>
+								<li><a style="background: transparent;" href="#">comprar</a></li>
+								<li><a style="background: transparent;" href="#">vender</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Login</a></li>
+						<li><a href="contact.html">Contato</a></li>
+						<div class="restoMenu">
+							<li><a href="classificados.html">Classificados</a></li>
+							<li><a href="produtora.html">Produtora</a></li>
+							<li><a href="#">Mercado futuro comodites</a></li>
+							<li><a href="#">Programação TV</a></li>
+							<li><a href="#">Programação Rádio</a></li>
+							<li><a href="#">Eventos</a>
+								<ul>
+									<li><a href="#">Leiloes</a></li>
+									<li><a href="#">Workshop</a></li>
+									<li><a href="#">feiras</a></li>
+									<li><a href="#">debates</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Notícias</a>
+								<ul>
+									<li><a href="#">Entrevistas</a></li>
+									<li><a href="#">Matérias do Agro</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Cotações</a></li>
+							<li><a href="#">Parceiros</a></li>
+							<li><a href="#">Previsão do tempo</a></li>
 						</div>
 
-						<nav id="nav-menu-container" style="margin-top: 2em;margin-left: 0.5em;">
-							<ul class="nav-menu">
-								<li><a href="classificados.html"><button style="background-color: #017f01; margin-top: -1em;    height: 3.5em;  width: 9em;" type="button" class="btn btn-success">A Revolução do </br>Agronegócio</button></a></li>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="about.html">Sobre nós</a></li>
-								<li><a href="#">Como funciona</a></li>
-								<li><a href="price.html">Planos</a></li>
-								<li><a href="">Cadastre-se</a>
-									<ul>
-										<li><a style="background: transparent;" href="#">comprar</a></li>
-										<li><a style="background: transparent;" href="#">vender</a></li>
-									</ul>
-								</li>
-								<li><a href="#">Login</a></li>
-								<li><a href="contact.html">Contato</a></li>
-								<div class="restoMenu">
-								<li><a href="produtora.html">Produtora</a></li>
-								<li><a href="#">Mercado futuro comodites</a></li>
-								<li><a href="#">Programação TV</a></li>
-								<li><a href="#">Eventos</a>
-									<ul>
-										<li><a href="#">Leiloes</a></li>
-										<li><a href="#">Workshop</a></li>
-										<li><a href="#">feiras</a></li>
-										<li><a href="#">debates</a></li>
-									</ul>
-								</li>
-								<li><a href="#">Notícias</a>
-									<ul>
-										<li><a href="#">Entrevistas</a></li>
-										<li><a href="#">Matérias do Agro</a></li>
-									</ul>
-								</li>
-								<li><a href="#">Cotações</a></li>
-								<li><a href="#">Parceiros</a></li>
-								<li><a href="#">Previsão do tempo</a></li>
-								</div>
+					</ul>
+				</nav><!-- #nav-menu-container -->
+				<form class="form-inline">
+					<input style="    margin-left: 1em; width: 8em;" class="form-control" type="text"
+						   placeholder="Pesquisar" aria-label="Pesquisar">
+				</form>
+			</div>
+			<div class="info"></div>
 
-							</ul>
-						</nav><!-- #nav-menu-container -->
-						<form class="form-inline">
-		<input style="    margin-left: 1em; width: 8em;" class="form-control" type="text" placeholder="Pesquisar" aria-label="Pesquisar">
-	</form>
-							</div>
-							<div class="info"></div>
-
-					</div>
-				</div>
-			</header><!-- #header -->
+		</div>
+		</div>
+	</header><!-- #header -->
 
 
 			<!-- start banner Area -->
-			<nav id="sidebar" style="position: absolute;	margin-top: 7.1em;    padding-left: 1em;">
-			<ul class="list-unstyled components">
+	<nav id="sidebar" style="position: absolute;	margin-top: 7.1em;    padding-left: 1em;">
+		<ul class="list-unstyled components">
 			<li class="active">
-										 <li><a href="produtora.html">Produtora</a></li>
-										 <li><a href="#">Mercado futuro comodites</a></li>
-										 <li><a href="#">Programação TV</a>
-				 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Eventos</a>
-				 <ul class="collapse list-unstyled" id="homeSubmenu">
-						 <li><a href="#">Leiloes</a></li>
-														 <li><a href="#">Workshop</a></li>
-														 <li><a href="#">feiras</a></li>
-														 <li><a href="#">debates</a></li>
-				 </ul>
+			<li><a href="classificados.html">Classificados</a></li>
+			<li><a href="produtora.html">Produtora</a></li>
+			<li><a href="#">Mercado futuro comodites</a></li>
+			<li><a href="#">Programação TV</a>
+			<li><a href="#">Programação Rádio</a>
+				<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Eventos</a>
+				<ul class="collapse list-unstyled" id="homeSubmenu">
+					<li><a href="#">Leiloes</a></li>
+					<li><a href="#">Workshop</a></li>
+					<li><a href="#">feiras</a></li>
+					<li><a href="#">debates</a></li>
+				</ul>
 			</li>
 			<li>
-				 <a href="#">Cotações</a>
-				 <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Notícias</a>
-				 <ul class="collapse list-unstyled" id="pageSubmenu">
-						 <li><a href="#">Entrevistas</a></li>
-														 <li><a href="#">Matérias do Agro</a></li>
-				 </ul>
+				<a href="#">Cotações</a>
+				<a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Notícias</a>
+				<ul class="collapse list-unstyled" id="pageSubmenu">
+					<li><a href="#">Entrevistas</a></li>
+					<li><a href="#">Matérias do Agro</a></li>
+				</ul>
 			</li>
-			<li><a href="#">Parceiros</a></li>
-										 <li><a href="#">Previsão do tempo</a></li>
-			</ul>
-			</nav>
+			<li><a href="#Parceiros">Parceiros</a></li>
+			<li><a href="#">Previsão do tempo</a></li>
+		</ul>
+	</nav>
 			<section class="relative about-banner">
 
+
+
 				<div class="overlay overlay-bg"></div>
-				<div>
+				<div class="page-wrapper bg-img-1 p-t-165 p-b-100" style="    padding-top: 7.2em;">
+					<div class="wrapper wrapper--w720" style="    display: contents;">
+						<div class="card card-3" style="background-color: rgba(0, 0, 0, 0.125)">
+							<div class="card-body">
+								<ul class="tab-list" style="padding-top: 0;">
+									<li class="tab-list__item active">
+										<a class="tab-list__link" style="font-weight: bold;font-size: larger;" href="#tab1" data-toggle="tab">FAZENDAS</a>
+									</li>
+									<li class="tab-list__item">
+										<a class="tab-list__link" style="font-weight: bold;font-size: larger;" href="#tab2" data-toggle="tab">GRÃOS</a>
+									</li>
+									<li class="tab-list__item">
+										<a class="tab-list__link" style="font-weight: bold;font-size: larger;" href="#tab3" data-toggle="tab">MÁQUINAS AGRICULAS</a>
+									</li>
+									<li class="tab-list__item active">
+										<a class="tab-list__link" style="font-weight: bold;font-size: larger;" href="#tab1" data-toggle="tab">INSUMOS</a>
+									</li>
+									<li class="tab-list__item">
+										<a class="tab-list__link" style="font-weight: bold;font-size: larger;" href="#tab2" data-toggle="tab">ANIMAIS</a>
+									</li>
+									<li class="tab-list__item">
+										<a class="tab-list__link" style="font-weight: bold;font-size: larger;" href="#tab3" data-toggle="tab">INDÚSTRIA</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active" id="tab1" style="padding-bottom: 10px;">
+										<form method="POST" action="#">
+											<div class="input-group">
+												<label class="label">Localidade</label>
+												<input class="input--style-1" type="text" name="address" placeholder="Cidade ou região desejada" required="required">
+												<i class="zmdi zmdi-pin input-group-symbol"></i>
+											</div>
+											<div class="input-group">
+												<label class="label">Quartos</label>
+												<i class="zmdi zmdi-account-add input-group-symbol"></i>
+												<div class="input-group-icon" id="js-select-special" style="    width: inherit;">
+													<input class="input--style-1" type="text" name="Quartos" value="selecione" disabled="disabled" id="info">
 
-					<div class="row d-flex align-items-center justify-content-center">
-
-						<div class="about-content col-lg-12" style="    margin-top: 1.4em;margin-right: 2em;">
-							<div class="ftco-search" style="display: -webkit-inline-box;">
-								<div class="row">
-			            <div class="col-md-12 nav-link-wrap">
-				            <div class="nav nav-pills text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-				              <a class="nav-link active mr-md-1" style="   background-color: #017f01;" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Animais</a>
-
-				              <a class="nav-link" style="    background-color: #017f01;" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Locais</a>
-
-				            </div>
-				          </div>
-				          <div class="col-md-12 tab-wrap">
-
-				            <div class="tab-content p-4" id="v-pills-tabContent">
-
-				              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
-				              	<form action="#" class="search-job">
-				              		<div class="row">
-				              			<div class="col-md">
-				              				<div class="form-group">
-					              				<div class="form-field">
-					              					<div class="icon"><span class="icon-briefcase"></span></div>
-									                <input type="text" class="form-control" placeholder="Gado Bovino">
-									              </div>
-								              </div>
-				              			</div>
-				              			<div class="col-md">
-				              				<div class="form-group">
-				              					<div class="form-field">
-					              					<div class="select-wrap">
-							                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-							                      <select name="" id="" class="form-control">
-							                      	<option value="">Categoria de animal</option>
-							                      	<option value="">Full Time</option>
-							                        <option value="">Part Time</option>
-							                        <option value="">Freelance</option>
-							                        <option value="">Internship</option>
-							                        <option value="">Temporary</option>
-							                      </select>
-							                    </div>
-									              </div>
-								              </div>
-				              			</div>
-				              			<div class="col-md">
-				              				<div class="form-group">
-				              					<div class="form-field">
-					              					<div class="icon"><span class="icon-map-marker"></span></div>
-									                <input type="text" class="form-control" placeholder="Localização">
-									              </div>
-								              </div>
-				              			</div>
-				              			<div class="col-md">
-				              				<div class="form-group">
-				              					<div class="form-field">
-									                <input style="background-color: #017f01;border-color: #017f01;" type="submit" value="Procurar" class="form-control btn btn-primary">
-									              </div>
-								              </div>
-				              			</div>
-				              		</div>
-				              	</form>
-				              </div>
-
-				              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-performance-tab">
-				              	<form action="#" class="search-job">
-				              		<div class="row">
-				              			<div class="col-md">
-				              				<div class="form-group">
-					              				<div class="form-field">
-					              					<div class="icon"><span class="icon-user"></span></div>
-									                <input type="text" class="form-control" placeholder="Fazenda proximo de Goiânia">
-									              </div>
-								              </div>
-				              			</div>
-				              			<div class="col-md">
-				              				<div class="form-group">
-				              					<div class="form-field">
-					              					<div class="select-wrap">
-							                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-							                      <select name="" id="" class="form-control">
-							                      	<option value="">Categoria de local</option>
-							                      	<option value="">Full Time</option>
-							                        <option value="">Part Time</option>
-							                        <option value="">Freelance</option>
-							                        <option value="">Internship</option>
-							                        <option value="">Temporary</option>
-							                      </select>
-							                    </div>
-									              </div>
-								              </div>
-				              			</div>
-				              			<div class="col-md">
-				              				<div class="form-group">
-				              					<div class="form-field">
-					              					<div class="icon"><span class="icon-map-marker"></span></div>
-									                <input type="text" class="form-control" placeholder="Localização">
-									              </div>
-								              </div>
-				              			</div>
-				              			<div class="col-md">
-				              				<div class="form-group">
-				              					<div class="form-field">
-									                <input style="background-color: #017f01;
-    border-color: #017f01;" type="submit" value="Procurar" class="form-control btn btn-primary">
-									              </div>
-								              </div>
-				              			</div>
-				              		</div>
-				              	</form>
-				              </div>
-				            </div>
-				          </div>
-				        </div>
-			        </div>
+												</div>
+												<i class="zmdi zmdi-chevron-down input-icon"></i>
+												<div class="dropdown-select">
+													<ul class="list-room">
+														<li class="list-room__item">
+															<span class="list-room__name">Fazenda 1</span>
+															<ul class="list-person">
+																<li class="list-person__item">
+																	<span class="name">Suíte</span>
+																	<div class="quantity quantity1">
+																		<span class="minus">-</span>
+																		<input class="inputQty" type="number" min="0" value="1">
+																		<span class="plus">+</span>
+																	</div>
+																</li>
+																<li class="list-person__item">
+																	<span class="name">Quarto</span>
+																	<div class="quantity quantity2">
+																		<span class="minus">-</span>
+																		<input class="inputQty" type="number" min="0" value="0">
+																		<span class="plus">+</span>
+																	</div>
+																</li>
+															</ul>
+														</li>
+													</ul>
+													<div class="list-room__footer">
+														<a href="#" id="btn-add-room">Adicionar outra fazenda</a>
+													</div>
+												</div>
+											</div>
+											<div class="checkbox-row">
+												<label class="checkbox-container m-r-45">Região Metropolitana
+													<input type="checkbox" checked="checked" name="add-flight">
+													<span class="checkmark"></span>
+												</label>
+												<label class="checkbox-container">Interior do estado
+													<input type="checkbox" name="add-car">
+													<span class="checkmark"></span>
+												</label>
+											</div>
+											<button class="btn-submit" type="submit">PESQUISAR</button>
+										</form>
+									</div>
+									<div class="tab-pane" id="tab2">
+										<form method="POST" action="#">
+											<div class="input-group">
+												<label class="label">Local Fornecedor:</label>
+												<input class="input--style-1" type="text" name="location" placeholder="Endereço" required="required">
+												<i class="zmdi zmdi-pin input-group-symbol"></i>
+											</div>
+											<div class="row row-space">
+												<div class="col-4">
+													<div class="input-group">
+														<label class="label">CULTURA/ESPÉCIE:</label>
+														<i class="zmdi zmdi-calendar-alt input-group-symbol"></i>
+														<div class="rs-select2 js-select-simple select--no-search">
+															<select name="driver-age">
+																<option>Arroz</option>
+																<option>Aveia</option>
+																<option selected="selected">Café</option>
+																<option>Milho</option>
+															</select>
+															<div class="select-dropdown"></div>
+														</div>
+													</div>
+												</div>
+												<div class="col-4">
+													<div class="input-group">
+														<label class="label">Data entrega:</label>
+														<i class="zmdi zmdi-calendar-alt input-group-symbol"></i>
+														<input class="input--style-1 js-single-datepicker" type="text" name="pickup" placeholder="dd/mm/yyyy" data-drop="1">
+														<div class="dropdown-datepicker" id="dropdown-datepicker1"></div>
+													</div>
+												</div>
+												<div class="col-4">
+													<div class="input-group">
+														<label class="label">Hora da entrega:</label>
+														<i class="zmdi zmdi-time input-group-symbol"></i>
+														<div class="rs-select2 js-select-simple select--no-search">
+															<select name="time-pickup">
+																<option selected="selected">10:00 AM</option>
+																<option>5:00 AM</option>
+																<option>6:00 AM</option>
+																<option>7:00 AM</option>
+															</select>
+															<div class="select-dropdown"></div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<button class="btn-submit m-t-15" type="submit">PESQUISAR</button>
+										</form>
+									</div>
+									<div class="tab-pane" id="tab3">
+										<form method="POST" action="#">
+											<div class="input-group">
+												<label class="label">Local Fornecedor:</label>
+												<i class="zmdi zmdi-pin input-group-symbol"></i>
+												<input class="input--style-1" type="text" name="origin" placeholder="Endereço" required="required">
+											</div>
+											<div class="row row-space">
+												<div class="col-4">
+													<div class="input-group">
+														<label class="label">MARCAS:</label>
+														<i class="zmdi zmdi-calendar-alt input-group-symbol"></i>
+														<div class="rs-select2 js-select-simple select--no-search">
+															<select name="driver-age">
+																<option>AGCO</option>
+																<option>CNH Industrial</option>
+																<option selected="selected">DEERE & Company</option>
+																<option>SDF Farming Technology</option>
+															</select>
+															<div class="select-dropdown"></div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="radio-row">
+												<label class="radio-container m-r-45">Semeadura
+													<input type="radio" name="class">
+													<span class="radio-checkmark"></span>
+												</label>
+												<label class="radio-container m-r-45">Plantio
+													<input type="radio" name="class">
+													<span class="radio-checkmark"></span>
+												</label>
+												<label class="radio-container">transplante
+													<input type="radio" checked="checked" name="class">
+													<span class="radio-checkmark"></span>
+												</label>
+											</div>
+											<button class="btn-submit" type="submit">PESQUISAR</button>
+										</form>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -382,6 +471,243 @@
 			</section>
 			<!-- End portfolio-area Area -->
 
+	<!-- Start portfolio-area Area -->
+
+	<section class="portfolio-area section-gap" id="classiModel">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="menu-content pb-70 col-lg-8">
+					<div class="title text-center">
+						<h1 class="mb-10">Modelo Classificado</h1>
+					</div>
+				</div>
+			</div>
+			<!-- product section -->
+			<section class="product-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="product-pic-zoom">
+								<img class="product-big-img" src="img/nwm_full.jpg" alt="">
+							</div>
+							<div class="product-thumbs" tabindex="1" style="overflow: hidden; outline: none;">
+								<div class="product-thumbs-track">
+									<div class="pt active" data-imgbigurl="img/nwm_full.jpg"><img src="img/nwm_full.jpg" alt=""></div>
+									<div class="pt" data-imgbigurl="img/nwm_large.jpg"><img src="img/nwm_large.jpg" alt=""></div>
+									<div class="pt" data-imgbigurl="img/nwm_large%20(1).jpg"><img src="img/nwm_large%20(1).jpg" alt=""></div>
+									<div class="pt" data-imgbigurl="img/nwm_large%20(2).jpg"><img src="img/nwm_large%20(2).jpg" alt=""></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 product-details">
+							<h2 class="p-title">Fazenda Texas</h2>
+							<h2 class="p-title">Localização: Novo México/ USA</h2>
+							<h3 class="p-price">R$8 mil/ ha</h3>
+							<div id="accordion" class="accordion-area">
+								<div class="panel">
+									<div class="panel-header" id="headingTwo">
+										<button class="panel-link active" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">informações</button>
+									</div>
+									<div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+										<div class="panel-body">
+											<p>4400 hectares</p>
+											<p>Composição do solo 35% argila.</p>
+											<p>80% formada sendo 60% braquiarão e 20% umidicula</p>
+											<p>20% reserva</p>
+											<p>45 pastos</p>
+											<p>2 córregos</p>
+											<p>5 açudes </p>
+											<p>110 hectares eucalipto </p>
+											<p>1 sede com 4 suítes</p>
+											<p>5 casas funcionários</p>
+											<p>2 barracões trator </p>
+											<p>1 fábrica Racao </p>
+											<p>1 depósito de milho p confinamento </p>
+											<p>1 turbina phc</p>
+											<p>1 reservatório 500 mil L</p>
+											<p>1 hangar</p>
+											<p>1 pista pouso 900 m</p>
+										</div>
+									</div>
+								</div>
+								<div class="panel">
+									<div class="panel-header" id="headingOne">
+										<button class="panel-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">Pagamento</button>
+									</div>
+									<div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+										<div class="panel-body">
+											<img src="./img/cards.png" alt="">
+											<p>Formas de pagamento.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<h4 class="p-stock">Disponovel para compra: <span style="color: #0B6623;">disponivel</span></h4>
+
+							<a href="#" class="site-btn" style="background-color: #0B6623;">Comprar agora.</a>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- product section end -->
+		</div>
+	</section>
+	<!-- End portfolio-area Area -->
+
+	<!-- Start portfolio-area Area -->
+
+	<section class="portfolio-area section-gap" id="chatModel">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="menu-content pb-70 col-lg-8">
+					<div class="title text-center">
+						<h1 class="mb-10">Modelo Chat</h1>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="messaging">
+					<div class="inbox_msg">
+						<div class="inbox_people">
+							<div class="headind_srch">
+								<div class="recent_heading">
+									<h4>Recente</h4>
+								</div>
+								<div class="srch_bar">
+									<div class="stylish-input-group">
+										<input type="text" class="search-bar"  placeholder="Pesquisar" >
+										<span class="input-group-addon">
+                <button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+                </span> </div>
+								</div>
+							</div>
+							<div class="inbox_chat">
+								<div class="chat_list active_chat">
+									<div class="chat_people">
+										<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+										<div class="chat_ib">
+											<h5>Atendente <span class="chat_date">25 de Dezembro</span></h5>
+											<p>Teste para mostrar todas as menssagens na aba de recentes como se
+												fosse converssas diferentes</p>
+										</div>
+									</div>
+								</div>
+								<div class="chat_list">
+									<div class="chat_people">
+										<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+										<div class="chat_ib">
+											<h5>Atendente <span class="chat_date">25 de Dezembro</span></h5>
+											<p>Teste para mostrar todas as menssagens na aba de recentes como se
+												fosse converssas diferentes</p>
+										</div>
+									</div>
+								</div>
+								<div class="chat_list">
+									<div class="chat_people">
+										<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+										<div class="chat_ib">
+											<h5>Atendente <span class="chat_date">25 de Dezembro</span></h5>
+											<p>Teste para mostrar todas as menssagens na aba de recentes como se
+												fosse converssas diferentes</p>
+										</div>
+									</div>
+								</div>
+								<div class="chat_list">
+									<div class="chat_people">
+										<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+										<div class="chat_ib">
+											<h5>Atendente <span class="chat_date">25 de Dezembro</span></h5>
+											<p>Teste para mostrar todas as menssagens na aba de recentes como se
+												fosse converssas diferentes</p>
+										</div>
+									</div>
+								</div>
+								<div class="chat_list">
+									<div class="chat_people">
+										<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+										<div class="chat_ib">
+											<h5>Atendente <span class="chat_date">25 de Dezembro</span></h5>
+											<p>Teste para mostrar todas as menssagens na aba de recentes como se
+												fosse converssas diferentes</p>
+										</div>
+									</div>
+								</div>
+								<div class="chat_list">
+									<div class="chat_people">
+										<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+										<div class="chat_ib">
+											<h5>Atendente <span class="chat_date">25 de Dezembro</span></h5>
+											<p>Teste para mostrar todas as menssagens na aba de recentes como se
+												fosse converssas diferentes</p>
+										</div>
+									</div>
+								</div>
+								<div class="chat_list">
+									<div class="chat_people">
+										<div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+										<div class="chat_ib">
+											<h5>Atendente <span class="chat_date">25 de Dezembro</span></h5>
+											<p>Teste para mostrar todas as menssagens na aba de recentes como se
+												fosse converssas diferentes</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="mesgs">
+							<div class="msg_history">
+								<div class="incoming_msg">
+									<div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+									<div class="received_msg">
+										<div class="received_withd_msg">
+											<p>Olá em que posso lhe ajudar?
+											<span class="time_date"> 11:01 AM    |    9 de Junho</span></div>
+									</div>
+								</div>
+								<div class="outgoing_msg">
+									<div class="sent_msg">
+										<p>não consigo entender como pesquisar sobre uma fazenda próxima</p>
+										<span class="time_date"> 11:01 AM    |    9 de Junho</span> </div>
+								</div>
+								<div class="incoming_msg">
+									<div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+									<div class="received_msg">
+										<div class="received_withd_msg">
+											<p>Teste de resposta</p>
+											<span class="time_date"> 11:01 AM    |    Ontem</span></div>
+									</div>
+								</div>
+								<div class="outgoing_msg">
+									<div class="sent_msg">
+										<p>Muito obrigado pela ajuda eu estou precisando urgênte</p>
+										<span class="time_date"> 11:01 AM    |    Hoje</span> </div>
+								</div>
+								<div class="incoming_msg">
+									<div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
+									<div class="received_msg">
+										<div class="received_withd_msg">
+											<p>Eu aconselho você assinar nossa revista ou ver nossa tv lá temos todas informações
+												que precisar!</p>
+											<span class="time_date"> 11:01 AM    |    Hoje</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="type_msg">
+								<div class="input_msg_write">
+									<input type="text" class="write_msg" placeholder="Escreva sua menssagem" />
+									<button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div></div>
+		</div>
+	</section>
+	<!-- End portfolio-area Area -->
+
+
             <!-- start footer Area -->
             <footer class="footer-area section-gap">
 				<div class="container">
@@ -432,24 +758,38 @@
 				</footer>
             <!-- End footer Area -->
 
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<script src="js/popper.min.js"></script>
-			<script src="js/vendor/bootstrap.min.js"></script>
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-  			<script src="js/easing.min.js"></script>
-			<script src="js/hoverIntent.js"></script>
-			<script src="js/superfish.min.js"></script>
-			<script src="js/jquery.ajaxchimp.min.js"></script>
-			<script src="js/jquery.magnific-popup.min.js"></script>
-    		<script src="js/jquery.tabs.min.js"></script>
-			<script src="js/jquery.nice-select.min.js"></script>
-            <script src="js/isotope.pkgd.min.js"></script>
-			<script src="js/waypoints.min.js"></script>
-			<script src="js/jquery.counterup.min.js"></script>
-			<script src="js/simple-skillbar.js"></script>
-			<script src="js/owl.carousel.min.js"></script>
-			<script src="js/mail-script.js"></script>
-			<script src="js/main.js"></script>
+	<!-- Jquery JS-->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<!-- Vendor JS-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script src="vendor/jquery-validate/jquery.validate.min.js"></script>
+	<script src="vendor/bootstrap-wizard/bootstrap.min.js"></script>
+	<script src="vendor/bootstrap-wizard/jquery.bootstrap.wizard.min.js"></script>
+	<script src="vendor/datepicker/moment.min.js"></script>
+	<script src="vendor/datepicker/daterangepicker.js"></script>
+	<!-- Main JS-->
+	<script src="js/global.js"></script>
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="js/easing.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.tabs.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/simple-skillbar.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/main.js"></script><!-- Jquery JS-->
+	<!-- Vendor JS-->
+
+
 
 
 		</body>
