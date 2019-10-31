@@ -4555,6 +4555,26 @@ dl.accordion.time-line:before {
   }
 }
 
+@media (max-width: 991.98px) {
+  .botaoPrincipal {
+    display: inline-grid;
+    margin-left: 36%;
+  }
+}
+
+@media (min-width: 991.98px) {
+  .botaoPrincipal {
+    display: none;
+  }
+}
+
+
+@media (min-width: 991.98px) {
+  .displayReverso {
+    display: none;
+  }
+}
+
 .restoMenu {
   display: none;
 }
