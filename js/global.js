@@ -140,7 +140,7 @@
                 '                                        <ul class="list-person">' +
                 '                                            <li class="list-person__item">' +
                 '                                                <span class="name">' +
-                '                                                    Suíte' +
+                '                                                    Maquinário' +
                 '                                                </span>' +
                 '                                                <div class="quantity quantity1">' +
                 '                                                    <span class="minus">' +
@@ -154,7 +154,7 @@
                 '                                            </li>' +
                 '                                            <li class="list-person__item">' +
                 '                                                <span class="name">' +
-                '                                                    Quarto' +
+                '                                                    Maquinário' +
                 '                                                </span>' +
                 '                                                <div class="quantity quantity2">' +
                 '                                                    <span class="minus">' +
@@ -205,18 +205,18 @@
         function updateRoom() {
             var totalAd = parseInt(countAdult());
             var totalChi = parseInt(countChildren());
-            var adults = 'Suíte, ';
-            var rooms = 'Quartos';
+            var adults = 'Fazenda, ';
+            var rooms = 'Maquinário 1';
     
             if (totalAd > 1) {
-                adults = 'Suíte, ';
+                adults = 'Maquinário 2, ';
             }
     
             if (totalRoom > 1) {
-                rooms = 'Quartos';
+                rooms = 'Maquinário';
             }
     
-            var infoText = totalAd + ' ' + adults + totalChi + ' ' + 'Quarto, ' + totalRoom + ' ' + rooms;
+            var infoText = totalAd + ' ' + adults + totalChi + ' ' + 'Maquinário, ' + totalRoom + ' ' + rooms;
     
             info.val(infoText);
         }
